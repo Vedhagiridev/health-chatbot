@@ -20,7 +20,13 @@ def get_response(user_input):
                 return item["response"]
 
     return "I'm not sure. Please consult a doctor."
+from flask import Flask, render_template, request
 
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("index.html")
 @app.route("/")
 def home():
     return render_template("index.html")
