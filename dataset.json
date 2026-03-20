@@ -1,0 +1,73 @@
+[ {
+  "keywords": ["migraine", "severe headache"],
+  "response": "Migraine causes intense headaches. Rest in a dark room and consult a doctor if frequent."
+}
+
+  {"keywords": ["Hi"], "response": "Hello! How can I assist you today?"},
+  {"keywords": ["Hello"], "response": "Hi there! What can I do for you?"},
+  {"keywords": ["How are you?"], "response": "I'm just a bot, but I'm here to help you!"},
+  {"keywords": ["What can you do?"], "response": "I can provide health advice based on your symptoms."},
+  {"keywords": ["Thank you"], "response": "You're welcome! Stay healthy!"},
+  {"keywords": ["Bye"], "response": "Goodbye! Take care!"},
+  {"keywords": ["fever"], "response": "Fever is often caused by infection. Drink fluids and rest. Consult a doctor if it lasts more than 2 days."},
+  {"keywords": ["headache"], "response": "Headache may be due to stress, dehydration, or lack of sleep. Rest and drink water."},
+  {"keywords": ["cold"], "response": "Common cold is mild. Stay warm, drink fluids, and take rest."},
+  {"keywords": ["cough"], "response": "Cough may be due to infection or allergy. Stay hydrated and avoid cold drinks."},
+  {"keywords": ["stomach pain"], "response": "Stomach pain may be due to indigestion. Eat light food and avoid oily meals."},
+  {"keywords": ["vomiting"], "response": "Drink small amounts of water frequently. Avoid solid food until better."},
+  {"keywords": ["diarrhea"], "response": "Stay hydrated with ORS. Consult a doctor if it persists."},
+  {"keywords": ["back pain"], "response": "Maintain good posture and do light stretching exercises."},
+  {"keywords": ["tooth pain"], "response": "Avoid very hot or cold foods. Visit a dentist if pain continues."},
+  {"keywords": ["eye pain"], "response": "Rest your eyes and avoid screens. Consult a doctor if severe."},
+
+  {"keywords": ["covid"], "response": "Common symptoms include fever, cough, and fatigue. Get tested if needed."},
+  {"keywords": ["flu"], "response": "Flu causes fever, chills, and body aches. Rest and stay hydrated."},
+  {"keywords": ["allergy"], "response": "Avoid allergens and take antihistamines if prescribed."},
+  {"keywords": ["asthma"], "response": "Use inhaler as prescribed and avoid triggers like dust."},
+  {"keywords": ["diabetes"], "response": "Maintain healthy diet and monitor blood sugar regularly."},
+  {"keywords": ["blood pressure"], "response": "Reduce salt intake and exercise regularly."},
+  {"keywords": ["heart pain"], "response": "Seek immediate medical help if you feel chest pain."},
+  {"keywords": ["burn"], "response": "Cool the burn under running water and avoid applying oil."},
+  {"keywords": ["cut"], "response": "Clean the wound and apply antiseptic."},
+  {"keywords": ["fracture"], "response": "Immobilize the area and seek medical attention immediately."},
+
+  {"keywords": ["depression"], "response": "Talk to someone you trust and consider professional help."},
+  {"keywords": ["anxiety"], "response": "Practice deep breathing and relaxation techniques."},
+  {"keywords": ["stress"], "response": "Take breaks, exercise, and manage your time effectively."},
+  {"keywords": ["sleep"], "response": "Maintain a regular sleep schedule and avoid screens before bed."},
+  {"keywords": ["insomnia"], "response": "Try relaxation techniques and avoid caffeine at night."},
+
+  {"keywords": ["hydration"], "response": "Drink at least 2-3 liters of water daily."},
+  {"keywords": ["diet"], "response": "Eat balanced meals with fruits and vegetables."},
+  {"keywords": ["exercise"], "response": "Do at least 30 minutes of physical activity daily."},
+  {"keywords": ["obesity"], "response": "Maintain a healthy diet and regular exercise."},
+  {"keywords": ["weight loss"], "response": "Combine healthy eating with regular exercise."},
+
+  {"keywords": ["pregnancy"], "response": "Regular checkups and a healthy diet are important."},
+  {"keywords": ["baby care"], "response": "Ensure proper nutrition and hygiene for babies."},
+  {"keywords": ["vaccination"], "response": "Follow the recommended vaccination schedule."},
+
+  {"keywords": ["skin rash"], "response": "Avoid irritants and keep the area clean."},
+  {"keywords": ["acne"], "response": "Wash face regularly and avoid oily products."},
+  {"keywords": ["hair fall"], "response": "Maintain a healthy diet and avoid stress."},
+
+  {"keywords": ["ear pain"], "response": "Avoid inserting objects into ear. Consult doctor if needed."},
+  {"keywords": ["nose bleeding"], "response": "Sit upright and pinch your nose gently."},
+  {"keywords": ["throat pain"], "response": "Gargle with warm salt water."},
+
+  {"keywords": ["food poisoning"], "response": "Stay hydrated and avoid solid food initially."},
+  {"keywords": ["ulcer"], "response": "Avoid spicy food and consult a doctor."},
+  {"keywords": ["gas"], "response": "Avoid overeating and carbonated drinks."},
+
+  {"keywords": ["sunburn"], "response": "Apply aloe vera and stay hydrated."},
+  {"keywords": ["heatstroke"], "response": "Move to a cool place and drink fluids immediately."},
+  {"keywords": ["cold weather"], "response": "Wear warm clothes and stay hydrated."},
+
+  {"keywords": ["first aid"], "response": "Basic first aid includes cleaning wounds and stopping bleeding."},
+  {"keywords": ["emergency"], "response": "Call emergency services immediately."},
+  {"keywords": ["doctor"], "response": "Consult a doctor for proper diagnosis and treatment."},
+
+  {"keywords": ["tired"], "response": "Get enough sleep and maintain a balanced diet."},
+  {"keywords": ["dizziness"], "response": "Sit down and drink water. Consult doctor if frequent."},
+  {"keywords": ["weakness"], "response": "Eat nutritious food and stay hydrated."}
+]

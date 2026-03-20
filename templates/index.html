@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Health Assistant🩺</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="header">
+        🏥 Health Assistant
+    </div>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button onclick="sendMessage()">➤</button>
+    </div>
+</div>
+
+<script>
+function addMessage(message, sender) {
+    let chatBox = document.getElementById("chat-box");
+
+    let msgDiv = document.createElement("div");
+    msgDiv.classList.add("message", sender);
+
+    msgDiv.innerText = message;
+
+    chatBox.appendChild(msgDiv);
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+function sendMessage() {
+    let input = document.getElementById("user-input");
+    let message = input.value.trim();
+
+    if (message === "") return;
+
+    addMessage(message, "user");
+
+    fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message: message})
+    })
+    .then(res => res.json())
+    .then(data => {
+        addMessage(data.reply, "bot");
+    });
+
+    input.value = "";
+}
+addMessage("Typing...", "bot");
+
+setTimeout(() => {
+    document.querySelector(".bot:last-child").remove();
+
+    fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message: message})
+    })
+    .then(res => res.json())
+    .then(data => {
+        addMessage(data.reply, "bot");
+    });
+
+}, 800);
+
+// Enter key support
+document.getElementById("user-input").addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+        sendMessage();
+    }
+});
+</script>
+
+</body>
+</html>
